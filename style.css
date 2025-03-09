@@ -219,6 +219,7 @@ header {
   margin-bottom: 11.25rem;
   background-repeat: no-repeat;
   background-image: url(./assets/desktop/image-hero11.jpg);
+  opacity: 0.5;
   background-position: 50% 50%;
   justify-content: space-between;
 }
@@ -430,6 +431,7 @@ footer {
 
   header {
     background: var(--white) url(./assets/tablet/image-hero11.jpg) no-repeat;
+    opacity: 0.5;
   }
 
   .hero-section {
@@ -439,6 +441,7 @@ footer {
     padding-block: 6.25rem;
     margin-bottom: 0;
     background-image: initial;
+    opacity: 0.5;
   }
 
   .hero-text {

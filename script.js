@@ -1,4 +1,4 @@
-var map = L.map('map').setView([27.722602462728965, 85.36299947942256], 16.5);
+var map = L.map('map').setView([27.722548, 85.36294], 16.5);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
@@ -9,10 +9,10 @@ var greenIcon = L.icon({
   iconUrl: 'assets/icon-location.svg',
 
   iconSize: [52, 64], // size of the icon
-  iconAnchor: [27.722602462728965, 85.36299947942256], // point of the icon which will correspond to marker's location
+  iconAnchor: [27.722548, 85.36294], // point of the icon which will correspond to marker's location
 });
 
-L.marker([27.722602462728965, 85.36299947942256], { icon: greenIcon }).addTo(map);
+L.marker([27.722548, 85.36294], { icon: greenIcon }).addTo(map);
 
 var popup = L.popup();
 

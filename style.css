@@ -218,7 +218,7 @@ header {
   padding-block: 11.875rem 18.75rem;
   margin-bottom: 11.25rem;
   background-repeat: no-repeat;
-  background-image: url(./assets/desktop/image-hero.jpg);
+  background-image: url(./assets/desktop/image-hero11.jpg);
   background-position: 50% 50%;
   justify-content: space-between;
 }
@@ -429,7 +429,7 @@ footer {
   }
 
   header {
-    background: var(--white) url(./assets/tablet/image-hero.jpg) no-repeat;
+    background: var(--white) url(./assets/tablet/image-hero11.jpg) no-repeat;
   }
 
   .hero-section {
